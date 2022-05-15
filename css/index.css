@@ -1,0 +1,105 @@
+
+
+
+footer {
+    position: fixed;
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    background-color: #343a40;
+    width: 100%;
+    height: 12%;
+    padding-top: 0.4rem;
+    justify-content: space-between;
+    padding-right: 1%;
+    align-items: center; }
+  
+  .redes {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+    justify-content: flex-end;
+    align-content: center;
+    margin-top: 1rem; }
+  
+  footer ul li {
+    padding-left: 10px; }
+  
+  .logos {
+    width: 3.5rem;
+    height: 3.5rem; }
+  
+  .contactar {
+      padding-top: 5px;
+    display: flex;
+    flex-direction: column;
+    min-width: 40%;
+    width: auto;
+    font-size: 0.8rem;
+    font-weight: bolder;
+    color: white; }
+  
+  .contactar p {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bolder;
+    color: whitesmoke;
+    text-decoration: underline; }
+  
+  .contactar ul {
+    list-style: square; }
+
+.section__contenido2 {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    padding-top: 0px; }
+
+    .form-control {
+        display: flex;
+        width: 70%;
+        padding: 0.375rem 0.75rem;
+        font-size: 1rem;
+        line-height: 1.5;
+        color: white;
+        background-color: #343a40;
+        background-clip: padding-box;
+        border: 3px solid rgba(0, 0, 0, 0.15);
+        border-radius: 0.25rem;
+        transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; }
+      
+      .form-control:focus {
+        color: whitesmoke;
+        background-color: #343a40;
+        border-color: skyblue;
+        outline: 0;
+        box-shadow: 0 0 0 0.01rem skyblue; }
+      
+      .form-control::placeholder {
+        color: whitesmoke;
+        opacity: 2; }
+
+        .formulario {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around; }
+          
+          .formulario2 form {
+            padding-left: 20%; }
+          
+          .mapa {
+            width: 40%;
+            height: 120%; }
+
+          
+          .mapa iframe {
+            width: 100%;
+            height: 100%; }
+      
